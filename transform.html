@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+    <style>
+        .inner {
+            width: 300px;
+            height: 300px;
+            border: 2px solid rgb(30, 29, 12);
+            background-color: aqua;
+            text-align: center;
+
+            transform: scale(.85) translateY(-5rem) rotate(45deg);
+
+            /* transform: rotate(-80deg);
+             transform: scale(.5, .75) rotate(80deg) translate(10rem);
+
+
+*/
+        }
+
+        .container {
+            width: 300px;
+            height: 300px;
+            border: 2px solid rgb(123, 120, 51);
+            background-color: palegoldenrod;
+            margin-left: 3rem;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h2>explore transform</h2>
+    <div class="container">
+        <div class="inner">inner 1</div>
+    </div>
+    <div class="container">
+        <div class="inner">inner 2</div>
+    </div>
+    <div class="container">
+        <div class="inner">inner 3</div>
+    </div>
+</body>
+
+</html>
